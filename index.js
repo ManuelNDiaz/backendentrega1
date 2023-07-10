@@ -66,7 +66,7 @@ class TicketManager {
   ticketManager.agregarUsuario(1, "usuario1");
   ticketManager.agregarUsuario(1, "usuario2");
   
-  ticketManager.ponerEventoEnGira(2, "Festival", new Date());
+  ticketManager.ponerEventoEnGira(2, "Festival", new Date("2023-11-21"));
   
   console.log(ticketManager.getEventos());
   
